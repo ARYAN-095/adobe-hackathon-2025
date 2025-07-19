@@ -1,15 +1,21 @@
-# Explicitly specify the platform for full compatibility [cite: 57]
+# Use a specific architecture to avoid cross-platform issues (especially on M1/M2 chips) [cite: 57]
 FROM --platform=linux/amd64 python:3.11-slim
 
-# Set the working directory inside the container
+# Set working directory inside the container
 WORKDIR /app
 
-# Copy the dependency file and install them
+# Install system dependencies (optional: add poppler-utils if PDFs require it)
+# RUN apt-get update && apt-get install -y poppler-utils && rm -rf /var/lib/apt/lists/*
+
+# Copy only requirements and install early for layer caching
 COPY round1a/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy your Python script into the container
+# Copy your main app code
 COPY round1a/main.py .
 
-# The container will be run with the docker run command specified in the docs[cite: 67],
-# so a CMD is not strictly required but is good practice.
+# Optional: copy any additional modules if needed
+# COPY round1a/utils.py .
+
+# Set default command — optional but good practice
+CMD ["python", "main.py"]
