@@ -6,7 +6,8 @@ The script processes PDFs in a multi-step pipeline to ensure accurate and struct
 
 Repetitive Content Filtering: To avoid including page headers or footers in the outline, the script first scans the document to identify text lines that repeat across many pages. These repetitive lines are stored in a set and are ignored during the main extraction process.
 
-# Title Detection: The title is assumed to be on the first page and is identified by finding the text with the largest font size. All text fragments sharing this maximum font size are concatenated to form the final title.
+# Title Detection: 
+The title is assumed to be on the first page and is identified by finding the text with the largest font size. All text fragments sharing this maximum font size are concatenated to form the final title.
 
 # Heading Identification: The core of the solution is a rule-based engine that iterates through every line of the PDF to identify headings:
 
@@ -21,7 +22,7 @@ This solution does not use any AI or machine learning models. It relies on the f
 
 # PyMuPDF (fitz): The core library for parsing PDF files. It provides access to low-level details like text, fonts, and bounding boxes for every element in the document.
 
-Standard Libraries:
+# Standard Libraries:
 
 os: For interacting with the file system.
 
@@ -35,7 +36,7 @@ collections.defaultdict: For efficiently counting font sizes and repetitive line
 
 statistics: Used in previous versions for heuristic analysis.
 
-How to Build and Run Your Solution
+# How to Build and Run Your Solution
 The solution is designed to be run inside a Docker container to ensure a consistent and clean environment.
 
 1. Project Structure
