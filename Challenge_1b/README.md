@@ -39,10 +39,10 @@ The **Intelligent Document Analyst** processes PDF documents to extract and prio
    docker build -t intelligent-analyst .  
 
 2. Process documents:
-   ```
+ ```
    docker run --rm \  
   -v "$(pwd)/Collection 1:/app/data" \  
   intelligent-analyst \  
   "data/challenge1b_input.json" > "Collection 1/challenge1b_output.json"  
-  ```
+```
 
