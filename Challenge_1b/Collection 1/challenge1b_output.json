@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-07-28T17:50:28.942599Z"
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "page_number": 12,
+      "section_title": "Relevant Content from Page 12",
+      "importance_rank": 1
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "page_number": 15,
+      "section_title": "Relevant Content from Page 15",
+      "importance_rank": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "page_number": 14,
+      "section_title": "Relevant Content from Page 14",
+      "importance_rank": 3
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "page_number": 1,
+      "section_title": "Relevant Content from Page 1",
+      "importance_rank": 4
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "page_number": 16,
+      "section_title": "Relevant Content from Page 16",
+      "importance_rank": 5
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "page_number": 3,
+      "section_title": "Relevant Content from Page 3",
+      "importance_rank": 6
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "page_number": 12,
+      "section_title": "Relevant Content from Page 12",
+      "importance_rank": 7
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "page_number": 11,
+      "section_title": "Relevant Content from Page 11",
+      "importance_rank": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "page_number": 10,
+      "section_title": "Relevant Content from Page 10",
+      "importance_rank": 9
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "page_number": 13,
+      "section_title": "Relevant Content from Page 13",
+      "importance_rank": 10
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Teams. The list includes transcripts for meetings. Each meeting in the list includes information, such as meeting name, organizer, date, time, and duration. You can also filter meetings based on a date range. Access Zoom meeting transcripts in Acrobat You must sign in to the Zoom web portal to access",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Add name or email to invite - Create a link and share using third-party apps. When you select any available third- party app like Microsoft Outlook, Gmail, WhatsApp, Microsoft Teams, or the default email client, Acrobat creates a shareable link and opens the respective application with the copied link in",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "under Third-party apps. 2. Under the Zoom app icon, select Learn more. 3. Follow the on-screen instructions to sign in to your Zoom web portal and download the meeting transcript. Choose Select file to select and open the transcript in Acrobat.",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "permissions for Adobe Acrobat to be the default app in Teams. After the admin accepts the permissions, you can integrate your Microsoft Teams account with Acrobat. 1. In Acrobat Home, select Add meeting transcripts under Third-party apps. 2. Under the Microsoft Teams icon, select Sign in to Teams and enter",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "When you select multiple files, Acrobat creates a collection that includes your chat history for future reference. Get AI-generated overviews and summaries The Generative summary feature summarizes the document's organization and content. It also provides a brief overview at the beginning to explain what the entire document is about. Whether",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Microsoft Teams icon, select Sign in to Teams and enter your login credentials. The list of meetings is now available in Acrobat. View meeting details in Acrobat You can access the list of meeting transcripts from Acrobat Home in Microsoft Teams. The list includes transcripts for meetings. Each meeting in",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Acrobat Prerequisites To access meeting information in Microsoft Teams, your admin must first configure Adobe Acrobat as the default PDF viewer in Microsoft Teams. The admin must also allow a list of endpoints to integrate Teams with Acrobat and grant permissions for Adobe Acrobat to be the default app in",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Initiate SharePoint-based shared review using Acrobat Before you initiate a review, ensure that you have a SharePoint site and reviewers have write permission to your site. Now, to host the shared review, you can do one of the following: - Let Acrobat automatically create and configure a document library within",
+      "page_number": 14
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "clear and concise to avoid any confusion for your recipients. Sharing Checklist for Real Estate Professionals In the real estate industry, sharing documents efficiently is crucial for closing deals and keeping clients informed. Here's a tailored checklist to help you manage your PDF sharing needs. Real Estate Sharing Checklist -",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "of sharing PDFs effectively. General Sharing Checklist - Open Your PDF - Have you launched Acrobat or Acrobat Reader and opened the PDF you want to share? - Choose Your Sharing Method - Are you sharing via email, link, or a third-party app like Microsoft Teams or WhatsApp? - Set",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Find and open Zoom transcripts Manually open meeting transcripts in Acrobat You can also open any meeting transcript directly in the viewer and use Acrobat's generative AI features for insights or summaries. If you have the VTT transcript file, then convert it to a PDF and open it in Acrobat",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "then provide the URL of your subsite on the SharePoint server. Click Next. Acrobat automatically creates and configures a new document library (named AcrobatSharedReviews) within your subsite to initiate the shared review. Note: If you don't want Acrobat to automatically configure the review, you can click Choose a subsite to",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "history and any associated follow- up questions. Chat history",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "The Ultimate PDF Sharing Checklist Sharing PDFs can be a breeze with Adobe Acrobat. Whether you're collaborating on a project, seeking feedback, or simply distributing information, this checklist will ensure you cover all the bases. Let's dive into the essentials of sharing PDFs effectively. General Sharing Checklist - Open Your",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "productivity: Work across multiple PDFs and documents in various formats, including Teams and Zoom meeting transcripts, streamlining your workflow and saving time for higher-priority tasks. - Impactful content: You can use the content suggestions that the features generate for impactful emails, presentations, meeting notes, and more. Turn off generative AI",
+      "page_number": 3
+    }
+  ]
+}
