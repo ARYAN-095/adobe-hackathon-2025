@@ -20,7 +20,8 @@ Outline Structuring & Output: All identified headings are collected along with t
 Models or Libraries Used
 This solution does not use any AI or machine learning models. It relies on the following Python libraries:
 
-# PyMuPDF (fitz): The core library for parsing PDF files. It provides access to low-level details like text, fonts, and bounding boxes for every element in the document.
+# PyMuPDF (fitz): 
+The core library for parsing PDF files. It provides access to low-level details like text, fonts, and bounding boxes for every element in the document.
 
 # Standard Libraries:
 
