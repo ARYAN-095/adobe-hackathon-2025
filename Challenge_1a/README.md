@@ -1,14 +1,14 @@
-PDF Outline Extractor
+# PDF Outline Extractor
 This solution extracts a structured outline, including a title and hierarchical headings (H1, H2, etc.), from PDF documents. It uses a rule-based approach to identify structural elements based on formatting cues like font size, style, and numbering conventions.
 
-Approach
+# Approach
 The script processes PDFs in a multi-step pipeline to ensure accurate and structured output.
 
 Repetitive Content Filtering: To avoid including page headers or footers in the outline, the script first scans the document to identify text lines that repeat across many pages. These repetitive lines are stored in a set and are ignored during the main extraction process.
 
-Title Detection: The title is assumed to be on the first page and is identified by finding the text with the largest font size. All text fragments sharing this maximum font size are concatenated to form the final title.
+# Title Detection: The title is assumed to be on the first page and is identified by finding the text with the largest font size. All text fragments sharing this maximum font size are concatenated to form the final title.
 
-Heading Identification: The core of the solution is a rule-based engine that iterates through every line of the PDF to identify headings:
+# Heading Identification: The core of the solution is a rule-based engine that iterates through every line of the PDF to identify headings:
 
 Rule 1: Numbered Headings: The primary rule looks for lines that start with a numerical pattern (e.g., 1., 2.1, 3.1.4). The hierarchy level (H1, H2, H3) is determined by the number of periods in the numbering (e.g., 2.1 is H2).
 
@@ -19,7 +19,7 @@ Outline Structuring & Output: All identified headings are collected along with t
 Models or Libraries Used
 This solution does not use any AI or machine learning models. It relies on the following Python libraries:
 
-PyMuPDF (fitz): The core library for parsing PDF files. It provides access to low-level details like text, fonts, and bounding boxes for every element in the document.
+# PyMuPDF (fitz): The core library for parsing PDF files. It provides access to low-level details like text, fonts, and bounding boxes for every element in the document.
 
 Standard Libraries:
 
